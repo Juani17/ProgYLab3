@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo HTML</title>
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Trabajo Juan Frery HTML</h1>
+        <p>Este trabajo tiene declaración DOCTYPE, etiqueta de metadatos y título</p> 
+    </header>
+
+    <!-- Navegacion -->
+    <nav>
+        <ul>
+            <li><a href="#estructura">Ir a Estructura</a></li>
+            <li><a href="#multimedia">Ir a Multimedia</a></li>
+            <li><a href="#formulario">Ir a Formulario</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2 Encabezados y Propiedades del Texto -->
+    <section id="encabezados">
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <h3>Título Nivel 3</h3>
+        <h4>Título Nivel 4</h4>
+        <h5>Título Nivel 5</h5>
+        <h6>Título Nivel 6</h6>
+        <p style="font-weight: bold;">Este es un texto en negrita.</p>
+        <p style="font-style: italic;">Este es un texto en cursiva.</p>
+        <p style="text-decoration: underline;">Este es un texto subrayado.</p>
+    </section>
+
+    <!-- 3 Divisiones y Agrupación de Contenido -->
+    <section id="divisiones">
+        <h2>2. Divisiones y Agrupación de Contenido</h2>
+        <article>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </article>
+        <article>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </article>
+    </section>
+
+    <!-- 4 Enlaces y Listas -->
+    <section id="enlaces">
+        <h2>3. Enlaces y Listas</h2>
+        <p>Visita nuestro <a href="https://www.ejemplo.com" target="_blank">sitio web</a> para más información.</p>
+        <div>
+            <p><strong>Lista desordenada:</strong></p>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segundo ítem de una lista desordenada</li>
+            </ul>
+        </div>
+        <div>
+            <p><strong>Lista ordenada:</strong></p>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segundo ítem de una lista ordenada</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 5 Elementos Multimedia -->
+    <section id="multimedia">
+        <h2>4. Elementos Multimedia</h2>
+        <img src="https://media.istockphoto.com/id/1326912040/es/foto/jard%C3%ADn-verde.jpg?s=612x612&w=0&k=20&c=4xwtgFdwvSdzOajYnOM8GKpDnVzMpVUibzHDQ7X7A6A=" width="300px" height="300px" alt="imagen simple de paisaje" />
+        <video controls width="300px" height="300px">
+            <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls></audio>
+    </section>
+
+    <!-- 6 Tablas -->
+    <section id="tablas">
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            th, td{
+                border:1px solid black
+            }
+        </style>
+        <h2>5. Tablas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección 6: Formularios -->
+    <section id="formulario">
+        <h2>6. Formularios</h2>
+        <form>
+            <label>Nombre</label>
+            <input type="text" placeholder="ingrese su Nombre">
+            <label>Email</label>
+            <input type="email" placeholder="ingrese su Email">
+            <label>Mensaje</label>
+            <textarea placeholder="ingrese un Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Trabajo Práctico HTML</p>
+    </footer>
+</body>
+</html>
