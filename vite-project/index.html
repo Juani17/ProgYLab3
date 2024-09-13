@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de DOM con Vite</title>
+</head>
+<body>
+    <h1>Ejercicios de DOM en JavaScript</h1>
+
+    <!-- Ejercicio 7.1: Cambiar color de párrafos -->
+    <div>
+        <h2>Ejercicio 7.1: Cambiar color de párrafos</h2>
+        <p>Este es el párrafo 1</p>
+        <p>Este es el párrafo 2</p>
+        <p>Este es el párrafo 3</p>
+        <button onclick="cambiarColor()">Cambiar color</button>
+    </div>
+
+    <!-- Ejercicio 7.2: Mostrar alerta con texto ingresado -->
+    <div>
+        <h2>Ejercicio 7.2: Mostrar alerta con texto ingresado</h2>
+        <input type="text" id="textoInput" placeholder="Escribe algo aquí">
+        <button onclick="mostrarAlerta()">Mostrar alerta</button>
+    </div>
+
+    <!-- Ejercicio 8.1: Añadir eventos a una lista -->
+    <div>
+        <h2>Ejercicio 8.1: Añadir eventos a una lista</h2>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    </div>
+
+    <!-- Ejercicio 8.2: Deshabilitar y habilitar campo de texto -->
+    <div>
+        <h2>Ejercicio 8.2: Deshabilitar y habilitar campo de texto</h2>
+        <input type="text" id="campoTexto" placeholder="Campo de texto habilitado">
+        <button onclick="deshabilitarCampo()">Deshabilitar</button>
+        <button onclick="habilitarCampo()">Habilitar</button>
+    </div>
+
+    <!-- Ejercicio 9.1: Guardar, mostrar y eliminar email en LocalStorage -->
+    <div>
+        <h2>Ejercicio 9.1: Guardar, mostrar y eliminar email en LocalStorage</h2>
+        <input type="email" id="emailInput" placeholder="Ingresa tu email">
+        <button onclick="guardarEmail()">Guardar Email</button>
+        <button onclick="eliminarEmail()">Eliminar Email</button>
+        <p id="mostrarEmail"></p>
+    </div>
+
+    <!-- Vinculamos el archivo JavaScript -->
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
