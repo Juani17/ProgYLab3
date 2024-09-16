@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": true,    // Solo si quieres permitir archivos JS en tu proyecto
+    "target": "es6"
+    
+  },
+  "include": ["*.ts"]  // Asegúrate de incluir solo archivos .ts
+}
